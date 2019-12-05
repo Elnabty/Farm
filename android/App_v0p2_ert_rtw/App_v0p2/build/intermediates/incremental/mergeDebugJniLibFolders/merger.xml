@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\farm\android\App_v0p2_ert_rtw\App_v0p2\src\main\jniLibs"/><source path="E:\farm\android\App_v0p2_ert_rtw\App_v0p2\src\main\libs"><file name="armeabi-v7a/libApp_v0p2.so" path="E:\farm\android\App_v0p2_ert_rtw\App_v0p2\src\main\libs\armeabi-v7a\libApp_v0p2.so"/></source></dataSet><dataSet config="debug"><source path="E:\farm\android\App_v0p2_ert_rtw\App_v0p2\src\debug\jniLibs"/></dataSet></merger>

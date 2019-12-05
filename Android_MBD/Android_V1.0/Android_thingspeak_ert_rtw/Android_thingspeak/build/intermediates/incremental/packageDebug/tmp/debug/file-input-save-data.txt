@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Nov 05 22:51:19 EET 2019
+1.base=E\:\\farm\\Android_MBD\\Android_V1.0\\Android_thingspeak_ert_rtw\\Android_thingspeak\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=E\:\\farm\\Android_MBD\\Android_V1.0\\Android_thingspeak_ert_rtw\\Android_thingspeak\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=lib/armeabi-v7a/libAndroid_thingspeak.so

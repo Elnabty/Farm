@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f392af01d1af8aed14e044eaa740ea5b\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:5:11-51
+	android:versionName
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:4:11-36
+		INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml
+		INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:3:11-34
+		INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml
+		INJECTED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml
+application
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:6:5-15:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:6:55-87
+	android:icon
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:6:18-54
+	android:theme
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:7:17-50
+activity#com.example.Android_thingspeak.Android_thingspeak
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:8:9-14:20
+	android:label
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:8:19-51
+	android:configChanges
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:9:63-109
+	android:theme
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:9:17-62
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:8:52-85
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:11:17-68
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:12:27-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:16:4-74
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:16:21-72
+uses-sdk
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:17:1-39
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f392af01d1af8aed14e044eaa740ea5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f392af01d1af8aed14e044eaa740ea5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:23:9-59
+	android:minSdkVersion
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:17:11-37
+uses-permission#android.permission.INTERNET
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:18:1-62
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:18:18-60
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:19:1-74
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:19:18-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:20:1-74
+	android:name
+		ADDED from E:\farm\Android_MBD\Android_V1.0\Android_thingspeak_ert_rtw\Android_thingspeak\src\main\AndroidManifest.xml:20:18-72
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f465b5c8794860865aff68549d0a3bee\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\5e8991dbdc8080eb7960bc4d69c55c48\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\8db37c8b36186e00dba80371dcb67af1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f392af01d1af8aed14e044eaa740ea5b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\f392af01d1af8aed14e044eaa740ea5b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\e5f111c083ca0ab021207927a3fd604a\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\d48cfc922a9094ead5e07c58b008e525\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\a6a7c54e397b17a9b93875d3162d2c35\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\43a32b1b429a296950a51f3d3e61fd43\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\1d51ba42befaadecde562c684ef291bd\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\cf2a9bfbde2c8f66481f29dadcb29126\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\c0c78e0ba9f5bcd1cadc2102d60dde21\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\aelnabty\.gradle\caches\transforms-2\files-2.1\7d9c27470549833e1bbc6fd307b3a747\AndroidManifest.xml:26:9-47

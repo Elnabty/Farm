@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Nov 05 11:04:13 EET 2019
+1.base=E\:\\farm\\android\\App_v0p2_ert_rtw\\App_v0p2\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=E\:\\farm\\android\\App_v0p2_ert_rtw\\App_v0p2\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=lib/armeabi-v7a/libApp_v0p2.so

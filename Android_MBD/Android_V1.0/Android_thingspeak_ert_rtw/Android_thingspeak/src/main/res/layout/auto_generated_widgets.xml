@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <!-- Auto-generated Widgets BEGIN -->
+
+<ScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+<ToggleButton
+	android:id="@+id/button1"
+	android:checked="true"
+	android:layout_gravity="center"
+	android:layout_height="0dp"
+	android:layout_width="wrap_content"
+	android:layout_weight="1"
+	android:layout_marginTop="8dp"
+	android:textOff="Fill Tank"
+	android:textOn="Fill Tank"
+	/>
+<TextView
+	android:id="@+id/DataDisplayLabel1"
+	android:text="Humidity: "
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<TextView
+	android:id="@+id/DataDisplay1"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	/>
+<ToggleButton
+	android:id="@+id/button2"
+	android:checked="true"
+	android:layout_gravity="center"
+	android:layout_height="0dp"
+	android:layout_width="wrap_content"
+	android:layout_weight="1"
+	android:layout_marginTop="8dp"
+	android:textOff="Main water"
+	android:textOn="Main water"
+	/>
+<TextView
+	android:id="@+id/DataInputLabel1"
+	android:text="Syring1:"
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<android.support.v7.widget.AppCompatEditText
+	android:id="@+id/DataInput1"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	android:layout_margin="8dp"
+	android:inputType="number|numberSigned"
+	android:tag="2"
+	android:maxLength="4"/>
+<TextView
+	android:id="@+id/DataInputLabel2"
+	android:text="Syring1 control:"
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<android.support.v7.widget.AppCompatEditText
+	android:id="@+id/DataInput2"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	android:layout_margin="8dp"
+	android:inputType="number|numberSigned"
+	android:tag="2"
+	android:maxLength="4"/>
+<TextView
+	android:id="@+id/DataInputLabel3"
+	android:text="Syring2:"
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<android.support.v7.widget.AppCompatEditText
+	android:id="@+id/DataInput3"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	android:layout_margin="8dp"
+	android:inputType="number|numberSigned"
+	android:tag="2"
+	android:maxLength="4"/>
+<TextView
+	android:id="@+id/DataInputLabel4"
+	android:text="Syring2 control:"
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<android.support.v7.widget.AppCompatEditText
+	android:id="@+id/DataInput4"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	android:layout_margin="8dp"
+	android:inputType="number|numberSigned"
+	android:tag="2"
+	android:maxLength="4"/>
+<ToggleButton
+	android:id="@+id/button3"
+	android:checked="true"
+	android:layout_gravity="center"
+	android:layout_height="0dp"
+	android:layout_width="wrap_content"
+	android:layout_weight="1"
+	android:layout_marginTop="8dp"
+	android:textOff="Tank Drain"
+	android:textOn="Tank Drain"
+	/>
+<ToggleButton
+	android:id="@+id/button4"
+	android:checked="true"
+	android:layout_gravity="center"
+	android:layout_height="0dp"
+	android:layout_width="wrap_content"
+	android:layout_weight="1"
+	android:layout_marginTop="8dp"
+	android:textOff="Tank vulve"
+	android:textOn="Tank vulve"
+	/>
+<TextView
+	android:id="@+id/DataDisplayLabel2"
+	android:text="Tempreture: "
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<TextView
+	android:id="@+id/DataDisplay2"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	/>
+<TextView
+	android:id="@+id/DataDisplayLabel3"
+	android:text="Water Level: "
+	android:textColor="@android:color/black"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:layout_margin="8dp"
+	/>
+<TextView
+	android:id="@+id/DataDisplay3"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:gravity="center"
+	android:textColor="@android:color/black"
+	/>
+</LinearLayout>
+</ScrollView>
+<!-- Auto-generated Widgets END -->
+
+</FrameLayout>

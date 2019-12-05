@@ -1,0 +1,10 @@
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+//#include <stdint.h>
+#define F_CPU 800000UL  // 8 MHz
+#define SPI_PORT PORTB
+#define SPI_DDR DDRB
+#define SPI_CS 4
+
+#endif

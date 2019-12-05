@@ -1,0 +1,15 @@
+E:\farm\relay_source\Relay modules\Relay module test\bin\Debug\Relay module test.exe.config
+E:\farm\relay_source\Relay modules\Relay module test\bin\Debug\Relay module test.exe.manifest
+E:\farm\relay_source\Relay modules\Relay module test\bin\Debug\Relay module test.application
+E:\farm\relay_source\Relay modules\Relay module test\bin\Debug\Relay module test.exe
+E:\farm\relay_source\Relay modules\Relay module test\bin\Debug\Relay module test.pdb
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.csprojAssemblyReference.cache
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\RELAY_MODULE_TEST.Form1.resources
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\RELAY_MODULE_TEST.Form2.resources
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\RELAY_MODULE_TEST.Properties.Resources.resources
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.csproj.GenerateResource.cache
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.csproj.CoreCompileInputs.cache
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.exe.manifest
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.application
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.exe
+E:\farm\relay_source\Relay modules\Relay module test\obj\Debug\Relay module test.pdb

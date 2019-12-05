@@ -1,0 +1,180 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Open",                       ID_FILE_OPEN
+    POPUP "&Address"
+    BEGIN
+        MENUITEM "&Loopback",                   IDM_LOOPBACK
+        MENUITEM "&Broadcast",                  IDM_BROADCAST
+    END
+    MENUITEM "&Send",                       IDM_SEND
+    MENUITEM "&Close",                      ID_FILE_CLOSE
+    MENUITEM "E&xit",                       ID_APP_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 214, 214
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Static",IDC_MESSAGE,"Static",SS_SIMPLE | SS_NOPREFIX | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,7,197,200,10,
+                    WS_EX_STATICEDGE
+    CONTROL         "IPAddress1",IDC_IPADDRESS1,"SysIPAddress32",WS_GROUP | 
+                    WS_TABSTOP,7,17,100,15
+    EDITTEXT        IDC_PORT,120,17,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "To &Address",IDC_STATIC,7,7,100,8
+    LTEXT           "To &Port",IDC_STATIC,120,7,40,8
+    EDITTEXT        IDC_DATA,7,51,200,50,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "&Data to send",IDC_STATIC,7,40,200,12,0,
+                    WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    EDITTEXT        IDC_DATA_RECEIVED,7,121,200,50,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "No data received",IDC_DATA_RECEIVED_HEADER,7,110,200,12,
+                    0,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    CONTROL         "Time received:",IDC_STATIC,"Static",SS_SIMPLE | 
+                    SS_NOPREFIX | WS_GROUP,7,178,48,8
+    EDITTEXT        IDC_TIME,55,174,40,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "From:",IDC_STATIC,105,176,18,8
+    EDITTEXT        IDC_FROM,127,174,80,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_OPEN_DIALOG DIALOGEX 0, 0, 167, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open Socket Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "O&K",IDOK,7,7,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,110,7,50,14
+    PUSHBUTTON      "C&lear",IDC_CLEAR_BUTTON,59,7,50,14
+    CTEXT           "From &Address",IDC_STATIC,7,51,100,12,0,
+                    WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_GROUP | 
+                    WS_TABSTOP,7,62,100,15
+    CTEXT           "From &Port",IDC_STATIC,120,51,40,12,0,
+                    WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    EDITTEXT        IDC_PORT,120,63,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "Use 0.0.0.0 to receive from any address.",IDC_STATIC,7,
+                    34,153,11,SS_NOPREFIX | SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_OPEN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "UDP Send / Receive Sample"
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ADDRESS              "Use a reserved standard address"
+    IDM_LOOPBACK            "Send to ourselves"
+    IDM_BROADCAST           "Send to everywhere we can"
+    IDM_SEND                "Send the data to the specified destination"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

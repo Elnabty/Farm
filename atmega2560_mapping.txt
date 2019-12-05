@@ -1,0 +1,30 @@
+
+Temp, Hum, US
+PORTA:
+
+22 PA0 -> R vcc Ground
+23 PA1 -> R vcc Ground
+24 PA2 -> R vcc Ground
+
+25 TRIGGER PA3 -> R VCC GROUND 
+26 DATA PA4
+
+27 TRIGGER PA5 -> R VCC GROUND 
+28 DATA PA6
+
+29 PA7 reserved
+
+
+---------------------------------------------------------------
+
+19 PORT E0 RX --> ESP TX
+18 PORT E1 TX --> ESP RX
+V3.3 --> ESP
+GROUND --> ESP
+---------------------------------------------------------------
+
+30 -> 37 and 50 -> 53,10 11 12 13  PORT C&B: ALL TO RELAY MODULE 16 bit channel
+---------------------------------------------------------------
+PORT F: MED CONTROL CNC sield control 4 stepper motors 
+0 -> 7 
+PL0 49 enabler

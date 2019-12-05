@@ -1,0 +1,23 @@
+/*
+ * circularQueue.h
+ *
+ * Created: 9/23/2019 1:29:58 PM
+ *  Author: aelnabty
+ */ 
+
+
+#ifndef CIRCULARQUEUE_H_
+#define CIRCULARQUEUE_H_
+#include "config.h"
+//#include <stdlib.h>
+//#include <inttypes.h>
+
+#define MAX_BUFFER_LENGTH 100U
+
+
+uint8_t circularQueue_isEmpty();
+void circularQueue_enqueue(uint8_t data);
+uint8_t circularQueue_dequeue();
+
+
+#endif /* CIRCULARQUEUE_H_ */

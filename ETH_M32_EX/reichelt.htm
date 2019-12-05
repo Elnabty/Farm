@@ -1,0 +1,406 @@
+<html>
+	<head>
+		<title>..:: Ethernet ATmega32/644 Experimentierboard - Partlist - ETH_M32_EX (Version: 22.12.2007)::..</title>
+		<style>
+			body {
+				text-align: center;
+			}
+			table {
+				border: 1px solid #919293;
+			}
+			table, input {
+				font-family: arial;
+				font-size: 11px;
+				padding-left: 3px;
+				padding-right: 3px;
+			}
+			th {
+				background-color: #a1a2a3;
+				padding: 3px;
+			}
+			td {
+				height: 20px;
+			}
+			input {
+				color: #000066;
+				font-weight: 900;
+			}
+			
+			.menge {
+				text-align: right;
+				width: 35px;
+			}
+			
+			.artnr {
+				width: 150px;
+			}
+		</style>
+		
+		<script language=JavaScript>
+			function send() {
+					var form = window.document.getElementById('contentform');
+					var maxElements = 40;
+					var kit_size = form.kit_size.value;
+			
+					for (var i = 1; i <= maxElements; i++){
+						form.elements["item[" + i + "]"].value = form.elements["item[" + i + "]"].value * kit_size;
+					}
+					
+					//return false; //DEVELOP - No send
+					return true;
+			}
+		</script>
+	</head>
+	<body>
+		<form method="post" name="contentform" id="contentform" action="http://www.reichelt.de/index.html?;ACTION=19;LA=5;SHOW=0">
+			<table cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<th>Part</th>
+				<th>Kurzbeschreibung</th>
+				<th>Bestellnummer (reichelt.de)</th>
+				<th>Anzahl</th>
+			</tr>
+			<!-- Artikel START -->
+			<tr>
+				<td>C1, C2, C17, C18</td>
+				<td>Keramik-Kondensator 22P</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;1&#93;" value="KERKO 22P" class="artnr"/></td>
+				<td><input type="text" id="item[1]" name="Anzahl&#95;Unknown&#91;1&#93;" maxlength="5" class="menge" value="4"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C3, C4, C5,C14, C15, C16, C10, C24, C25, C26, C27</td>
+				<td>VIELSCHICHTKONDENSATOR</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;2&#93;" value="Z5U-5 100N" class="artnr"/></td>
+				<td><input type="text" id="item[2]" name="Anzahl&#95;Unknown&#91;2&#93;" maxlength="5" class="menge" value="11"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C6, C7, C8, C9</td>
+				<td>VIELSCHICHTKONDENSATOR</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;3&#93;" value="Z5U-5 470N" class="artnr"/></td>
+				<td><input type="text" id="item[3]" name="Anzahl&#95;Unknown&#91;3&#93;" maxlength="5" class="menge" value="4"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C11, C12, C13</td>
+				<td>Elektrolytkondensator, 105&deg;C, RM 2,5mm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;4&#93;" value="RAD 105 220/16" class="artnr"/></td>
+				<td><input type="text" id="item[4]" name="Anzahl&#95;Unknown&#91;4&#93;" maxlength="5" class="menge" value="3"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C21</td>
+				<td>Elektrolytkondensator, 105&deg;C, RM 2,5mm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;5&#93;" value="RAD 105 10/63" class="artnr"/></td>
+				<td><input type="text" id="item[5]" name="Anzahl&#95;Unknown&#91;5&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C19, C20</td>
+				<td>Keramik-Kondensator 1,0N</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;6&#93;" value="KERKO 1,0N" class="artnr"/></td>
+				<td><input type="text" id="item[6]" name="Anzahl&#95;Unknown&#91;6&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>C22, C23</td>
+				<td>Keramik-Kondensator 10N</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;7&#93;" value="KERKO 10N" class="artnr"/></td>
+				<td><input type="text" id="item[7]" name="Anzahl&#95;Unknown&#91;7&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>D1, D2, D3</td>
+				<td>DIODE</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;8&#93;" value="1N 4004" class="artnr"/></td>
+				<td><input type="text" id="item[8]" name="Anzahl&#95;Unknown&#91;8&#93;" maxlength="5" class="menge" value="3"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>D4</td>
+				<td>Z-DIODE 0,5W</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;9&#93;" value="ZF 12" class="artnr"/></td>
+				<td><input type="text" id="item[9]" name="Anzahl&#95;Unknown&#91;9&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>F1</td>
+				<td>Feinsicherung, Picofuse, flink, 1,0A</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;10&#93;" value="PICO 1,0A" class="artnr"/></td>
+				<td><input type="text" id="item[10]" name="Anzahl&#95;Unknown&#91;10&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>FERITE, L1</td>
+				<td>Stehende-Induktivit&auml;t, 11P, Ferrit, 10&micro;</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;11&#93;" value="SMCC 10&#181;" class="artnr"/></td>
+				<td><input type="text" id="item[11]" name="Anzahl&#95;Unknown&#91;11&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>IC1</td>
+				<td>ATMega AVR-RISC-Controller</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;12&#93;" value="ATMEGA 644-20 PU" class="artnr"/></td>
+				<td><input type="text" id="item[12]" name="Anzahl&#95;Unknown&#91;12&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>IC2</td>
+				<td>Spannungsregler 2A positiv, TO-220</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;13&#93;" value="&#181;A 78S05" class="artnr"/></td>
+				<td><input type="text" id="item[13]" name="Anzahl&#95;Unknown&#91;13&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>IC3</td>
+				<td>Spannungsregler, TO-220</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;14&#93;" value="LM 317-220" class="artnr"/></td>
+				<td><input type="text" id="item[14]" name="Anzahl&#95;Unknown&#91;14&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>IC4</td>
+				<td>RS232E Transceiver, DIL-16</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;15&#93;" value="MAX 202 CPE" class="artnr"/></td>
+				<td><input type="text" id="item[15]" name="Anzahl&#95;Unknown&#91;15&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>IC5</td>
+				<td>ENC28J60-DIL</td>
+				<td>bei <a href="http://www.ulrichradig.de">www.ulrichradig.de</a> im shop</td>
+				<td class="menge">1</td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>J1</td>
+				<td>Modular-Einbaubuchse 8/8, geschirmt</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;16&#93;" value="MEBP 8-8G" class="artnr"/></td>
+				<td><input type="text" id="item[16]" name="Anzahl&#95;Unknown&#91;16&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>JP1</td>
+				<td>2x10pol.-Stiftleiste, gerade, RM 2,54</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;17&#93;" value="SL 2X10G 2,54" class="artnr"/></td>
+				<td><input type="text" id="item[17]" name="Anzahl&#95;Unknown&#91;17&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>JP2, JP3</td>
+				<td>36pol. Stiftleiste, gerade, RM 2,54</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;18&#93;" value="SL 1X36G 2,54" class="artnr"/></td>
+				<td><input type="text" id="item[18]" name="Anzahl&#95;Unknown&#91;18&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>LED1, LED2, LED3</td>
+				<td>LED, 3mm, Low Cost, gr&uuml;n</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;20&#93;" value="LED 3MM GN" class="artnr"/></td>
+				<td><input type="text" id="item[20]" name="Anzahl&#95;Unknown&#91;20&#93;" maxlength="5" class="menge" value="3"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>PROG, SV1</td>
+				<td>Wannenstecker, 10-polig, gerade</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;21&#93;" value="WSL 10G" class="artnr"/></td>
+				<td><input type="text" id="item[21]" name="Anzahl&#95;Unknown&#91;21&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>Q1</td>
+				<td>Standardquarz, Grundton, 16,0 MHz</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;22&#93;" value="16,0000-HC49U-S" class="artnr"/></td>
+				<td><input type="text" id="item[22]" name="Anzahl&#95;Unknown&#91;22&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>Q2</td>
+				<td>Standardquarz, 3. Oberton, 25,0 MHz</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;23&#93;" value="25,0000-HC49U-S" class="artnr"/></td>
+				<td><input type="text" id="item[23]" name="Anzahl&#95;Unknown&#91;23&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R1</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 10 K-Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;24&#93;" value="1/4W 10K" class="artnr"/></td>
+				<td><input type="text" id="item[24]" name="Anzahl&#95;Unknown&#91;24&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R2</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 390 Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;25&#93;" value="1/4W 390" class="artnr"/></td>
+				<td><input type="text" id="item[25]" name="Anzahl&#95;Unknown&#91;25&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R3</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 240 Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;26&#93;" value="1/4W 240" class="artnr"/></td>
+				<td><input type="text" id="item[26]" name="Anzahl&#95;Unknown&#91;26&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R4</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 1,5 K-Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;27&#93;" value="1/4W 1,5K" class="artnr"/></td>
+				<td><input type="text" id="item[27]" name="Anzahl&#95;Unknown&#91;27&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R5</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 33 K-Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;28&#93;" value="1/4W 33K" class="artnr"/></td>
+				<td><input type="text" id="item[28]" name="Anzahl&#95;Unknown&#91;28&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R6, R7</td>
+				<td>Kohleschichtwiderstand 1/4W, 5%, 180 Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;29&#93;" value="1/4W 180" class="artnr"/></td>
+				<td><input type="text" id="item[29]" name="Anzahl&#95;Unknown&#91;29&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R8</td>
+				<td>Metallschichtwiderstand 0,6 W, 1%, 2,7 K-Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;30&#93;" value="MPR 2,70K" class="artnr"/></td>
+				<td><input type="text" id="item[30]" name="Anzahl&#95;Unknown&#91;30&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>R9, R10, R11, R12</td>
+				<td>Metallschichtwiderstand 49,9 Ohm</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;31&#93;" value="METALL 49,9" class="artnr"/></td>
+				<td><input type="text" id="item[31]" name="Anzahl&#95;Unknown&#91;31&#93;" maxlength="5" class="menge" value="4"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>S1</td>
+				<td>Kurzhubtaster 6x6mm, H&ouml;he: 9,5mm, 12V, vertikal</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;32&#93;" value="TASTER 3301B" class="artnr"/></td>
+				<td><input type="text" id="item[32]" name="Anzahl&#95;Unknown&#91;32&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>SV2</td>
+				<td>Wannenstecker, 16-polig, gerade</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;33&#93;" value="WSL 16G" class="artnr"/></td>
+				<td><input type="text" id="item[33]" name="Anzahl&#95;Unknown&#91;33&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>TR</td>
+				<td>FB2022</td>
+				<td>bei <a href="http://www.ulrichradig.de">www.ulrichradig.de</a> im shop</td>
+				<td class="menge">1</td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>X1</td>
+				<td>Hohlstecker-Einbaubuchse, gewinkelt, L&ouml;tfahnen</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;34&#93;" value="HEBW 21" class="artnr"/></td>
+				<td><input type="text" id="item[34]" name="Anzahl&#95;Unknown&#91;34&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>X2</td>
+				<td>D-SUB-Buchse, 9-polig, gewinkelt, RM 9,4</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;35&#93;" value="D-SUB BU 09EU" class="artnr"/></td>
+				<td><input type="text" id="item[35]" name="Anzahl&#95;Unknown&#91;35&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<tr><td colspan="4"><strong>Sonstiges</strong></td></tr>
+			<!-- Artikel START -->
+			<tr>
+				<td>Jumper</td>
+				<td>Kurzschlussbr&uuml;cke, blau, RM 2,54, vergoldet</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;36&#93;" value="JUMPER 2,54 BL" class="artnr"/></td>
+				<td><input type="text" id="item[36]" name="Anzahl&#95;Unknown&#91;36&#93;" maxlength="5" class="menge" value="2"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>Fassung 40polig</td>
+				<td>IC-Sockel, 40-polig, superflach, gedreht, vergold.</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;37&#93;" value="GS 40P" class="artnr"/></td>
+				<td><input type="text" id="item[37]" name="Anzahl&#95;Unknown&#91;37&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>Fassung 16polig</td>
+				<td>IC-Sockel, 16-polig, superflach, gedreht, vergold.</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;38&#93;" value="GS 16P" class="artnr"/></td>
+				<td><input type="text" id="item[38]" name="Anzahl&#95;Unknown&#91;38&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>Fassung 28polig</td>
+				<td>IC-Sockel, 28-polig, superflach, gedreht, schmal</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;39&#93;" value="GS 28P-S" class="artnr"/></td>
+				<td><input type="text" id="item[39]" name="Anzahl&#95;Unknown&#91;39&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<!-- Artikel START -->
+			<tr>
+				<td>K&uuml;hlk&ouml;rper</td>
+				<td>Spezial-K&uuml;hlk&ouml;rper, 25,0x12,0x6,5mm, 32K/W</td>
+				<td><input type="text" name="Input&#95;Unknown&#91;40&#93;" value="V PR5/25-M3" class="artnr"/></td>
+				<td><input type="text" id="item[40]" name="Anzahl&#95;Unknown&#91;40&#93;" maxlength="5" class="menge" value="1"/></td>
+			</tr>
+			<!-- Artikel ENDE -->
+			<tr>
+				<th colspan="4" style="text-align: right;">
+					Bausatzanzahl:
+					<input type="text" name="kit_size" value="1" style="width: 2em; text-align: right;" maxlength="2"/>
+					<input type="submit" onClick="return send();" value="zum reichelt.de Warenkorb"/>
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2" style="text-align: left;">F&uuml;r alle nicht ben&ouml;tigten Artikel einfach die Menge auf &quot;0&quot; setzen.</th>
+				<th colspan="2" style="text-align: right;">Copyleft by Christian Riedel 2007</th>
+			</tr>
+			</table>
+		</form>
+	</body>
+</html>
