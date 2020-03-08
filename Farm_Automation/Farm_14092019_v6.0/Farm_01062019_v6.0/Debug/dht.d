@@ -23,7 +23,7 @@ dht.d dht.o: .././dht.c \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  .././espATCommand.h .././packetsConfig.h .././UART.h .././GPIOcontrol.h \
- .././timer.h .././usound.h .././circularQueue.h
+ .././timer.h .././usound.h .././circularQueue.h .././motorDriver.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
 
@@ -86,3 +86,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././usound.h:
 
 .././circularQueue.h:
+
+.././motorDriver.h:

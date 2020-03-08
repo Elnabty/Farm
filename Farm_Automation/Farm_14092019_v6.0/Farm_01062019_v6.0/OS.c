@@ -13,7 +13,7 @@ void task_5sec  (void)
 	Json Jdata;
 	 wdt_reset();
 	cli();
-    dht_getdata_dht_11(&temperature,&humidity,1);
+    //dht_getdata_dht_11(&temperature,&humidity,1);
 	Jdata.field1=temperature;
 	Jdata.field2=humidity;
 	
@@ -37,7 +37,7 @@ void task_4Sec(void)
 			  wdt_reset();
 			//change to "&Jdata" instead of "Jdata"
             relayModuleControl_Sol(&Jdata);
-           // ModuleControl_Med(&Jdata);/*Test*/
+           // motorDriver_Med(&Jdata);/*Test*/
 			
 		//	ESP_Read(&Jdata,FAN_VENTILATION_CHANNEL_ID,FAN_VENTILATION_READ_APIKEY,8);
             sei();
@@ -49,33 +49,9 @@ void task_10sec (void)
 {
 
     cli();
-	 wdt_reset();
-    if (  /*dht_getdata_dht_22(&ftemperature,&fhumidity,0)!=-1  &&*/ dht_getdata_dht_11(&temperature,&humidity,1) == 0 )
-        {
-            int8_t temp_avr;
-            int8_t humd_avr;
-            temp_avr = ( (ftemperature+temperature)/2 );
-            humd_avr = ((fhumidity+humidity)/2);
+	 
 
-            if(temp_avr > 30 || humd_avr > 67)
-                {
-                    VENTILATION_ON;
-                    FAN_ON;
-                }
-
-            else if (manualflag == 0)
-                {
-                    VENTILATION_OFF;
-                    FAN_OFF;
-                }
-
-        }
-    else
-        {
-            //UART_string_tx("FATAL ERROR!");
-            FAN_ON;
-            VENTILATION_ON;
-        }
+     
 		 
     sei();
 

@@ -38,6 +38,7 @@ int main(void)
 {
 
 	GPIO_init();
+	motorDriver_Config();
     timer1_init();
     timer0_init();
     unsigned char oldTime = 0;
@@ -55,7 +56,7 @@ int main(void)
 
     //sei();
     cli();
-    PORTB = 0u;
+    
     usound_init();
     _delay_ms(1000);
     _delay_ms(1000);
@@ -76,7 +77,7 @@ int main(void)
     Jdata.field6=0;
     Jdata.field7=0;
     Jdata.field8=0;
-    ESP_write_Fields(&Jdata,SELONOID_WRITE_APIKEY,1,8);
+    //ESP_write_Fields(&Jdata,SELONOID_WRITE_APIKEY,1,8);
     while(1)
         {
 
@@ -92,13 +93,30 @@ int main(void)
             if(oneSec != oldTime)
                 {
                     oldTime = oneSec;
-
-
-
+					if(circularQueue_isEmpty()!=TRUE)
+					{
+						int8_t temp =0;
+						temp = circularQueue_dequeue();
+							//itoa(waterLevel,buffer,10);
+							
+						    Jdata.field5=0;
+						    Jdata.field6=10;
+						    Jdata.field7=0;
+						    Jdata.field8=oneSec;
+						motorDriver_Med(&Jdata);
+					}
+				 
+				dht_getdata_dht_11(&temperature,&humidity,dht_2_DDRG,dht_2_PORTG,dht_2_PING,1);
+				//waterLevel=readDistance();
+				
+				itoa(temperature,buffer,10);
+				UART_string_tx(buffer);
+				UART_tx('\n');
+				
 
                     if(sec_5 == 5u)
                         {
-                            task_5sec();
+                          //  task_5sec();
                             sec_5 = 0;
                         }
                     else
@@ -109,7 +127,7 @@ int main(void)
                     if(sec_10 == 10u)
 
                         {
-                            task_10sec();
+                           // task_10sec();
                             sec_10=0u;
 
                         }
@@ -125,7 +143,7 @@ int main(void)
 
                     if(sec_4 == 4u)
                         {
-                            task_4Sec();
+                            //task_4Sec();
                             sec_4 = 0;
                         }
                     else

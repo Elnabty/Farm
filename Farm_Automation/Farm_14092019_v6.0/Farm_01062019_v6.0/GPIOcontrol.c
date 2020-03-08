@@ -256,89 +256,28 @@ void relayModuleControl_Sol(Json * Jdata)
 
 }
 
-extern volatile uint16_t number_of_rotation;
-volatile uint8_t Medicine;
-void ModuleControl_Med(struct Json * Jdata)
-{
-    static uint8_t Med_1_State=0;
-    static uint8_t Med_2_State=0;
-    int8_t data;
 
-    if(Jdata->field7 != Med_1_State)
-        {
-            Med_1_State = Jdata->field7;
-            data = (int8_t)(Jdata->field5);
-            if(data < 0)
-                {
-                    MED_1_ACW;
-                    number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
-                    Medicine=1;
-                    A4899_EN;
-                    TIMER0_INTER_ENABLE;
-                }
-
-            else
-                {
-                    MED_1_CW;
-                    number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
-                    Medicine=1;
-                    A4899_EN;
-                    TIMER0_INTER_ENABLE;
-
-                }
-
-
-        }
-    else
-        {
-
-        }
-
-
-    if(Jdata->field8 != Med_2_State)
-        {
-            Med_2_State = Jdata->field8;
-            data = (int8_t)(Jdata->field6);
-            if(data < 0)
-                {
-                    MED_2_ACW;
-                    number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
-                    Medicine=2;
-                    A4899_EN;
-                    TIMER0_INTER_ENABLE;
-                }
-
-            else
-                {
-                    MED_2_CW;
-                    number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
-                    Medicine=2;
-                    A4899_EN;
-                    TIMER0_INTER_ENABLE;
-
-                }
-
-
-        }
-    else
-        {
-
-        }
-
-
-}
 
 void GPIO_init(void)
 {
-	 DDRC_CONFIG;
-	 PORTC_COMFIG;
+	 DDR_FLYMED_CONFIG;
+	 DDR_LIGHT_1_CONFIG;
+	 DDR_VENTILATION_CONFIG;
 	 
-	 DDRL_CINFIG;
-	 PORTL_CINFIG;
-	 A4899_DIS;
+	 DDR_SOL_1_CONFIG;
+	 DDR_SOL_2_CONFIG;
+	 DDR_SOL_3_CONFIG;
+	 DDR_SOL_4_CONFIG;
 	 
-	 DDRB_CONFIG;
-	 PORTB_COMFIG;
+	 SOL_1_OFF;
+	 SOL_2_OFF;
+	 SOL_3_OFF;
+	 SOL_4_OFF;
+	 
+	 FLYMED_OFF;
+	 LIGHT_1_ON;
+	 VENTILATION_OFF;
+	 LIGHT_2_OFF;
 	 
 	 
 

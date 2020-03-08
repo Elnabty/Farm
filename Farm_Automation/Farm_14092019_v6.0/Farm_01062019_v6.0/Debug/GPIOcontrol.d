@@ -21,7 +21,7 @@ GPIOcontrol.d GPIOcontrol.o: .././GPIOcontrol.c .././GPIOcontrol.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  .././espATCommand.h .././packetsConfig.h .././UART.h .././dht.h \
- .././timer.h .././usound.h .././circularQueue.h
+ .././timer.h .././usound.h .././circularQueue.h .././motorDriver.h
 
 .././GPIOcontrol.h:
 
@@ -80,3 +80,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././usound.h:
 
 .././circularQueue.h:
+
+.././motorDriver.h:

@@ -1,4 +1,5 @@
-usound.d usound.o: .././usound.c .././usound.h .././config.h \
+motorDriver.d motorDriver.o: .././motorDriver.c .././motorDriver.h \
+ .././config.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -20,9 +21,9 @@ usound.d usound.o: .././usound.c .././usound.h .././config.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  .././espATCommand.h .././packetsConfig.h .././UART.h .././dht.h \
- .././GPIOcontrol.h .././timer.h .././circularQueue.h .././motorDriver.h
+ .././GPIOcontrol.h .././timer.h .././usound.h .././circularQueue.h
 
-.././usound.h:
+.././motorDriver.h:
 
 .././config.h:
 
@@ -78,6 +79,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 .././timer.h:
 
-.././circularQueue.h:
+.././usound.h:
 
-.././motorDriver.h:
+.././circularQueue.h:

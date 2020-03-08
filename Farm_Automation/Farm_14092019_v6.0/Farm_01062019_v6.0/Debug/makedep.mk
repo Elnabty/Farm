@@ -12,6 +12,8 @@ GPIOcontrol.c
 
 main.c
 
+motorDriver.c
+
 OS.c
 
 packetsConfig.c

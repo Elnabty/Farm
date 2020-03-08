@@ -20,7 +20,7 @@ timer.d timer.o: .././timer.c .././timer.h .././config.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  .././espATCommand.h .././packetsConfig.h .././UART.h .././dht.h \
- .././GPIOcontrol.h .././usound.h .././circularQueue.h
+ .././GPIOcontrol.h .././usound.h .././circularQueue.h .././motorDriver.h
 
 .././timer.h:
 
@@ -79,3 +79,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././usound.h:
 
 .././circularQueue.h:
+
+.././motorDriver.h:

@@ -21,7 +21,7 @@ espATCommand.d espATCommand.o: .././espATCommand.c .././espATCommand.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  .././packetsConfig.h .././UART.h .././dht.h .././GPIOcontrol.h \
- .././timer.h .././usound.h .././circularQueue.h
+ .././timer.h .././usound.h .././circularQueue.h .././motorDriver.h
 
 .././espATCommand.h:
 
@@ -80,3 +80,5 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././usound.h:
 
 .././circularQueue.h:
+
+.././motorDriver.h:
