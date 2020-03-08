@@ -31,16 +31,16 @@
 
 
 /*Motor Medicine 1*/
-#define MED_1_STEP 3u
-#define DDR_MED_1_STEP_CONFIG DDRD|=(1<<MED_1_STEP);
-#define PORT_MED_1_STEP_CONFIG DDRD&=~(1<<MED_1_STEP);
-#define MED_1_TOGGLE PORTD^=(1<<MED_1_STEP);/*Toggle to give steps to the driver*/
+#define MED_1_STEP 6u
+#define DDR_MED_1_STEP_CONFIG DDRH|=(1<<MED_1_STEP);
+#define PORT_MED_1_STEP_CONFIG DDRH&=~(1<<MED_1_STEP);
+#define MED_1_TOGGLE PORTH^=(1<<MED_1_STEP);/*Toggle to give steps to the driver*/
 
-#define MED_1_DIR 2u   //MED 1 Motor DIRECRTION
-#define DDR_MED_1_DIR_CONFIG DDRD|=(1<<MED_1_DIR);
-#define PORT_MED_1_DIR_CONFIG DDRD&=~(1<<MED_1_DIR);
-#define MED_1_CW  PORTD&=~(1<<MED_1_DIR);
-#define MED_1_ACW PORTD|=(1<<MED_1_DIR);
+#define MED_1_DIR 5u   //MED 1 Motor DIRECRTION
+#define DDR_MED_1_DIR_CONFIG DDRH|=(1<<MED_1_DIR);
+#define PORT_MED_1_DIR_CONFIG DDRH&=~(1<<MED_1_DIR);
+#define MED_1_CW  PORTH&=~(1<<MED_1_DIR);
+#define MED_1_ACW PORTH|=(1<<MED_1_DIR);
 
 
 

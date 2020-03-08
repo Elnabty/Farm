@@ -1,9 +1,9 @@
 /*
- * Farm_01062019_v0.1.c
- *
- * Created: 6/1/2019 1:56:18 AM
- * Author : hmd-e
- */
+* Farm_01062019_v0.1.c
+*
+* Created: 6/1/2019 1:56:18 AM
+* Author : hmd-e
+*/
 
 #define F_CPU 16000000UL
 #include <avr/io.h>
@@ -36,127 +36,112 @@ extern volatile unsigned char oneSec;
 
 int main(void)
 {
-
-	GPIO_init();
+	
+	unsigned char oldTime = 0;
+	unsigned char sec_5 = 0;
+	unsigned char sec_3 = 0u;
+	uint8_t sec_4 = 0u;
+	uint8_t sec_10 = 0u;
+	Json Jdata;
+	
 	motorDriver_Config();
-    timer1_init();
-    timer0_init();
-    unsigned char oldTime = 0;
-    unsigned char sec_5 = 0;
-    unsigned char sec_3 = 0u;
-    uint8_t sec_4 = 0u;
-    uint8_t sec_10 = 0u;
-    Json Jdata;
+	GPIO_init();
+	
+	timer1_init();
+	timer0_init();
+	UART_int();
+	usound_init();
 
-    UART_int();
-    _delay_ms(5);
+	
+	_delay_ms(5);
 
-
-
-
-    //sei();
-    cli();
-    
-    usound_init();
-    _delay_ms(1000);
-    _delay_ms(1000);
-    _delay_ms(1000);
-    _delay_ms(1000);
-    _delay_ms(1000);
-    oldTime = oneSec;
-    
-     
-    sei();
-	 wdt_enable(WDTO_8S);
-	 wdt_reset();
-    Jdata.field1=1;
-    Jdata.field2=1;
-    Jdata.field3=1;
-    Jdata.field4=1;
-    Jdata.field5=0;
-    Jdata.field6=0;
-    Jdata.field7=0;
-    Jdata.field8=0;
-    //ESP_write_Fields(&Jdata,SELONOID_WRITE_APIKEY,1,8);
-    while(1)
-        {
+	cli();
+	
+	
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	oldTime = oneSec;
+	
+	
+	sei();
+	wdt_enable(WDTO_8S);
+	wdt_reset();
+	/*Set Injection channel: */
+	Jdata.field1=1;
+	Jdata.field2=0;
+	Jdata.field3=1;
+	Jdata.field4=0;
+	Jdata.field5=1;
+	Jdata.field6=0;
+	Jdata.field7=1;
+	Jdata.field8=0;
+	ESP_write_Fields(&Jdata,INJECTION_WRITE_APIKEY,1,8);
+	while(1)
+	{
 
 
-               
+		
 
-            
+		
 
 
-			 wdt_reset();
-            
+		wdt_reset();
+		
 
-            if(oneSec != oldTime)
-                {
-                    oldTime = oneSec;
-					if(circularQueue_isEmpty()!=TRUE)
-					{
-						int8_t temp =0;
-						temp = circularQueue_dequeue();
-							//itoa(waterLevel,buffer,10);
-							
-						    Jdata.field5=0;
-						    Jdata.field6=10;
-						    Jdata.field7=0;
-						    Jdata.field8=oneSec;
-						motorDriver_Med(&Jdata);
-					}
-				 
-				dht_getdata_dht_11(&temperature,&humidity,dht_2_DDRG,dht_2_PORTG,dht_2_PING,1);
-				//waterLevel=readDistance();
-				
-				itoa(temperature,buffer,10);
-				UART_string_tx(buffer);
-				UART_tx('\n');
-				
+		if(oneSec != oldTime)
+		{
+			oldTime = oneSec;
+			
+			
+			
+			
 
-                    if(sec_5 == 5u)
-                        {
-                          //  task_5sec();
-                            sec_5 = 0;
-                        }
-                    else
-                        {
-                            sec_5++;
-                        }
+			if(sec_5 == 5u)
+			{
+				  task_5sec();
+				sec_5 = 0;
+			}
+			else
+			{
+				sec_5++;
+			}
 
-                    if(sec_10 == 10u)
+			if(sec_10 == 10u)
 
-                        {
-                           // task_10sec();
-                            sec_10=0u;
+			{
+				 task_10sec();
+				sec_10=0u;
 
-                        }
+			}
 
-                    else
-                        {
+			else
+			{
 
-                            sec_10++;
+				sec_10++;
 
-                        }
+			}
 
 
 
-                    if(sec_4 == 4u)
-                        {
-                            //task_4Sec();
-                            sec_4 = 0;
-                        }
-                    else
-                        {
-                            sec_4++;
-                        }
+			if(sec_4 == 4u)
+			{
+				task_4Sec();
+				sec_4 = 0;
+			}
+			else
+			{
+				sec_4++;
+			}
 
 
-                }
+		}
 
 
 
-        }
+	}
 
 
 
@@ -164,4 +149,5 @@ int main(void)
 
 
 }
+
 

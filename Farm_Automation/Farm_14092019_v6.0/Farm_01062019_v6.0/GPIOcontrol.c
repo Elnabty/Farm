@@ -256,7 +256,46 @@ void relayModuleControl_Sol(Json * Jdata)
 
 }
 
+/*Fan Ventilation Light Med*/
+void GPOIcontrol_FVLM(struct Json * Jdata)
+{
+	if(Jdata->field1 == 0)
+	{
+		FLYMED_OFF;
+	}
+	else
+	{
+		FLYMED_ON;
+	}
 
+
+	if(Jdata->field2 == 0)
+	{
+		VENTILATION_OFF;
+	}
+	else
+	{
+		VENTILATION_ON;
+	}
+	if(Jdata->field3 == 0)
+	{
+		LIGHT_1_OFF;
+	}
+	else
+	{
+		LIGHT_1_ON;
+	}
+	if(Jdata->field4 == 0)
+	{
+		LIGHT_2_OFF;
+	}
+	else
+	{
+		LIGHT_2_ON;
+	}
+
+
+}
 
 void GPIO_init(void)
 {

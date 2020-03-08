@@ -54,13 +54,13 @@
 
 
 #define LIGHT_1 2U
-#define DDR_LIGHT_1_CONFIG DDRL|=(1<<LIGHT_1);
+#define DDR_LIGHT_1_CONFIG DDRB|=(1<<LIGHT_1);
 #define LIGHT_1_ON  PORTB&=~(1<<LIGHT_1);
 #define LIGHT_1_OFF PORTB|=(1<<LIGHT_1);
 
 
 #define LIGHT_2 0U
-#define DDR_LIGHT_2_CONFIG DDRL|=(1<<LIGHT_2);
+#define DDR_LIGHT_2_CONFIG DDRB|=(1<<LIGHT_2);
 #define LIGHT_2_ON  PORTB&=~(1<<LIGHT_2);
 #define LIGHT_2_OFF PORTB|=(1<<LIGHT_2);
 
@@ -76,6 +76,10 @@
 
 
 void relayModuleControl_Sol(struct Json * Jdata);
+
+/*Fan Ventilation Light Med*/
+void GPOIcontrol_FVLM(struct Json * Jdata);
+
 void GPIO_init(void);
 #ifdef RELAYMODULECONTROL
 void relayModuleControl(unsigned char *data);

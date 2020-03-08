@@ -14,14 +14,14 @@ void motorDriver_Med(struct Json * Jdata)
 	static uint8_t Med_2_State=0;
 	int8_t data;
 
-	if(Jdata->field7 != Med_1_State)
+	if(Jdata->field2 != Med_1_State)
 	{
-		Med_1_State = Jdata->field7;
-		data = (int8_t)(Jdata->field5);
+		Med_1_State = Jdata->field2;
+		data = (int8_t)(Jdata->field1);
 		if(data < 0)
 		{
 			MED_1_ACW;
-			number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
+			number_of_rotation = (uint16_t)(((DEGREE_360)*(uint8_t)abs(data))*2);
 			Medicine=1;
 			A4899_EN;
 			TIMER0_INTER_ENABLE;
@@ -30,7 +30,7 @@ void motorDriver_Med(struct Json * Jdata)
 		else
 		{
 			MED_1_CW;
-			number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
+			number_of_rotation = (uint16_t)(((DEGREE_360)*(uint8_t)abs(data))*2);
 			Medicine=1;
 			A4899_EN;
 			TIMER0_INTER_ENABLE;
@@ -45,14 +45,14 @@ void motorDriver_Med(struct Json * Jdata)
 	}
 
 
-	if(Jdata->field8 != Med_2_State)
+	if(Jdata->field4 != Med_2_State)
 	{
-		Med_2_State = Jdata->field8;
-		data = (int8_t)(Jdata->field6);
+		Med_2_State = Jdata->field4;
+		data = (int8_t)(Jdata->field3);
 		if(data < 0)
 		{
 			MED_2_ACW;
-			number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
+			number_of_rotation = (uint16_t)(((DEGREE_360)*(uint8_t)abs(data))*2);
 			Medicine=2;
 			A4899_EN;
 			TIMER0_INTER_ENABLE;
@@ -61,7 +61,7 @@ void motorDriver_Med(struct Json * Jdata)
 		else
 		{
 			MED_2_CW;
-			number_of_rotation = (uint16_t)((DEGREE_360)*(uint8_t)abs(data));
+			number_of_rotation = (uint16_t)(((DEGREE_360)*(uint8_t)abs(data))*2);
 			Medicine=2;
 			A4899_EN;
 			TIMER0_INTER_ENABLE;
