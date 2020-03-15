@@ -34,9 +34,9 @@ void task_4Sec(void)
 {
 	
 
-	static Json Jdata_Med={1,0,1,0,1,0,1,0};
-	static Json Jdata_Sol={1,1,1,1,1,1,1,1};
-	static Json Jdata_FVLM={1,1,1,1,1,1,1,1};	/*Fan_Ventilation_Light_Med*/
+	 Json Jdata_Med={0};
+	 Json Jdata_Sol={0};
+	 Json Jdata_FVLM={0};	/*Fan_Ventilation_Light_Med*/
 	
 	
 	wdt_reset();

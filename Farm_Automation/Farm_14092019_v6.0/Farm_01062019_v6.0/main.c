@@ -42,7 +42,7 @@ int main(void)
 	unsigned char sec_3 = 0u;
 	uint8_t sec_4 = 0u;
 	uint8_t sec_10 = 0u;
-	Json Jdata;
+	Json Jdata = {0};
 	
 	motorDriver_Config();
 	GPIO_init();
@@ -70,14 +70,6 @@ int main(void)
 	wdt_enable(WDTO_8S);
 	wdt_reset();
 	/*Set Injection channel: */
-	Jdata.field1=1;
-	Jdata.field2=0;
-	Jdata.field3=1;
-	Jdata.field4=0;
-	Jdata.field5=1;
-	Jdata.field6=0;
-	Jdata.field7=1;
-	Jdata.field8=0;
 	ESP_write_Fields(&Jdata,INJECTION_WRITE_APIKEY,1,8);
 	while(1)
 	{

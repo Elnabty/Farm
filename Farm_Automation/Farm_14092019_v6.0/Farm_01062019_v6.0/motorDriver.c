@@ -10,14 +10,18 @@ extern volatile uint16_t number_of_rotation;
 volatile uint8_t Medicine;
 void motorDriver_Med(struct Json * Jdata)
 {
-	static uint8_t Med_1_State=0;
-	static uint8_t Med_2_State=0;
-	int8_t data;
 
-	if(Jdata->field2 != Med_1_State)
+	int8_t data;
+	Json JRest={0};
+
+	
+	
+
+	if(Jdata->field2 != 0u)
 	{
-		Med_1_State = Jdata->field2;
+		
 		data = (int8_t)(Jdata->field1);
+		ESP_write_Fields(&JRest,INJECTION_WRITE_APIKEY,1,8);
 		if(data < 0)
 		{
 			MED_1_ACW;
@@ -36,7 +40,7 @@ void motorDriver_Med(struct Json * Jdata)
 			TIMER0_INTER_ENABLE;
 
 		}
-
+		
 
 	}
 	else
@@ -45,10 +49,11 @@ void motorDriver_Med(struct Json * Jdata)
 	}
 
 
-	if(Jdata->field4 != Med_2_State)
+	if(Jdata->field4 != 0u)
 	{
-		Med_2_State = Jdata->field4;
+		
 		data = (int8_t)(Jdata->field3);
+		ESP_write_Fields(&JRest,INJECTION_WRITE_APIKEY,1,8);
 		if(data < 0)
 		{
 			MED_2_ACW;
@@ -67,7 +72,7 @@ void motorDriver_Med(struct Json * Jdata)
 			TIMER0_INTER_ENABLE;
 
 		}
-
+		
 
 	}
 	else

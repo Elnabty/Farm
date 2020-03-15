@@ -17,23 +17,23 @@
 /*Solenoids*/
 #define SOL_1 2u   //First solenoid
 #define DDR_SOL_1_CONFIG DDRG|=(1<<SOL_1);
-#define SOL_1_ON  PORTG&=~(1<<SOL_1);
-#define SOL_1_OFF PORTG|=(1<<SOL_1);
+#define SOL_1_OFF  PORTG&=~(1<<SOL_1);
+#define SOL_1_ON PORTG|=(1<<SOL_1);
 
 #define SOL_2 0u   //Second solenoid 
 #define DDR_SOL_2_CONFIG DDRG|=(1<<SOL_2);
-#define SOL_2_ON  PORTG&=~(1<<SOL_2);
-#define SOL_2_OFF PORTG|=(1<<SOL_2);
+#define SOL_2_OFF  PORTG&=~(1<<SOL_2);
+#define SOL_2_ON PORTG|=(1<<SOL_2);
 
 #define SOL_3 6u   //Third solenoid
 #define DDR_SOL_3_CONFIG DDRL|=(1<<SOL_3);
-#define SOL_3_ON  PORTL&=~(1<<SOL_3);
-#define SOL_3_OFF PORTL|=(1<<SOL_3);
+#define SOL_3_OFF  PORTL&=~(1<<SOL_3);
+#define SOL_3_ON PORTL|=(1<<SOL_3);
 
 #define SOL_4 4u   //Fourth solenoid
 #define DDR_SOL_4_CONFIG DDRL|=(1<<SOL_4);
-#define SOL_4_ON  PORTL&=~(1<<SOL_4);
-#define SOL_4_OFF PORTL|=(1<<SOL_4);
+#define SOL_4_OFF  PORTL&=~(1<<SOL_4);
+#define SOL_4_ON PORTL|=(1<<SOL_4);
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////

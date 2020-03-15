@@ -1,9 +1,9 @@
 /*
- * timer.c
- *
- * Created: 9/2/2019 4:10:39 PM
- *  Author: aelnabty
- */ 
+* timer.c
+*
+* Created: 9/2/2019 4:10:39 PM
+*  Author: aelnabty
+*/
 #include "timer.h"
 volatile unsigned char oneSec = 0u;
 volatile uint16_t number_of_rotation = 0u;
@@ -46,18 +46,26 @@ ISR (TIMER1_COMPA_vect)    // Timer1 ISR
 ISR (TIMER0_COMPA_vect)    // Timer0 ISR
 {
 
-
-	switch(Medicine)
-	{
-		case 1: MED_1_TOGGLE;number_of_rotation--;break;
-		case 2: MED_2_TOGGLE;number_of_rotation--;break;
-		default: break;
-	}
+	
+	
 	if(number_of_rotation == 0u)
 	{
 		
 		A4899_DIS;
 		TIMER0_INTER_DISABLE;
+		
 	}
+	else
+	{
+		switch(Medicine)
+		{
+			case 1: MED_1_TOGGLE;number_of_rotation--;break;
+			case 2: MED_2_TOGGLE;number_of_rotation--;break;
+			default: break;
+		}
+		
+	}
+	
+	
 	
 }
